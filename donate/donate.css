@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url(../assets/donate/background\ donate.jpg);
+}
+.navbar{
+    background-color: #eb5757;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: black;
+    
+}
+.btn-1{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px 15px;
+    position: relative;
+    margin-left: 5%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    background-color: transparent;
+}
+.hero-section{
+    color: white;
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    top: 40px;
+}
+.hero-section h1{
+    font-size: 4rem;
+}
+.hero-section p{
+    font-size: 15px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+.content-section{
+    margin-top: 105px;
+    margin-bottom: 65px;
+}
+.donate-wrapper{
+    width: 50%;
+    height: 80vh;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.list{
+    width: 90%;
+    position: relative;
+    top: 20px;
+    margin: 28px;
+    padding: 5px;
+    background-color: #eb5757;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    
+}
+.list a{
+    text-decoration: none;
+}
+.text{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+}
+footer{
+    padding-top: 65px;
+    padding-bottom: 10px;
+    background-color: black;
+    margin-top: 8%;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.logo-1{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.social-media a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+.made-by{
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 992px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar{
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+    .nav-link{
+        margin-left: 0;
+    }
+    .btn-1{
+        margin-left: 0;
+        position: relative;
+    }
+    .hero-section{
+        position: absolute;
+        width: 100%;
+        padding-top: 10%;
+    }
+    .list{
+        width: 90%;
+        position: relative;
+        top: 20px;
+        right: 16px;
+        padding: 5px;
+        background-color: #eb5757;
+        border-radius: 5px;
+        color: white;
+        text-align: center;
+        
+    }
+    
+    
+}

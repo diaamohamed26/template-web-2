@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    background-color: black;
+}
+.navbar{
+    background-color: #eb5757;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: black;
+    
+}
+.btn-1{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px 15px;
+    position: relative;
+    margin-left: 5%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    background-color: transparent;
+}
+.hero-section{
+    color: white;
+    position: relative;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.hero-section h1{
+    font-size: 3rem;
+}
+.content-section{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.featured-section{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+.featured-section img{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+.btn-2{
+    position: absolute;
+    right: 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.text-featured{
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    left: 20px;
+    font-size: medium;
+}
+footer{
+    padding-top: 65px;
+    padding-bottom: 10px;
+    background-color: black;
+    margin-top: 10%;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.logo-1{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.social-media a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+.made-by{
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 992px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar{
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+    .nav-link{
+        margin-left: 0;
+    }
+    .btn-1{
+        margin-left: 0;
+        position: relative;
+    }
+    .hero-section{
+        position: absolute;
+        width: 100%;
+        padding-top: 17%;
+        margin-top: 20px;
+    }
+}
